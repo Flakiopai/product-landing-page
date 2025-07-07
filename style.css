@@ -1,0 +1,152 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Visually hidden utility class (can be reused for screen reader-only content) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Focus visibility */
+nav a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 3px solid #ffcc00;
+  outline-offset: 2px;
+}
+
+/* Hero section */
+.hero {
+  background: #f4f4f4;
+  padding: 2rem;
+  text-align: center;
+}
+
+.feature-grid {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.feature {
+  background: #eee;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.pricing-table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.plan {
+  background: #ddd;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Accessible form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+form input,
+form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+form input[aria-invalid="true"],
+form textarea[aria-invalid="true"] {
+  border-color: red;
+  background-color: #ffe6e6;
+}
+
+#formError {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .feature-grid,
+  .pricing-table {
+    flex-direction: column;
+    display: flex;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+/* Back-to-top button styles */
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  display: none;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#backToTop:focus {
+  outline: 3px solid #ffcc00;
+}
+

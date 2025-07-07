@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Product</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header role="banner">
+      <nav aria-label="Main navigation">
+        <h1>Awesome Product</h1>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <section class="hero">
+        <h2>Revolutionize Your Workflow</h2>
+        <p>Our product helps you work smarter, not harder.</p>
+        <button aria-label="Get Started with Awesome Product">
+          Get Started
+        </button>
+      </section>
+
+      <section id="features">
+        <h2>Features</h2>
+        <div class="feature-grid">
+          <div class="feature">Fast</div>
+          <div class="feature">Secure</div>
+          <div class="feature">Easy to Use</div>
+        </div>
+      </section>
+
+      <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="pricing-table">
+          <div class="plan">Free</div>
+          <div class="plan">Pro</div>
+          <div class="plan">Enterprise</div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="email">Email:</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Your email"
+            required
+            aria-required="true"
+          />
+
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            placeholder="Your message"
+            aria-required="false"
+          ></textarea>
+
+          <button type="submit" aria-label="Send message">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <p>&copy; 2025 Awesome Product Inc.</p>
+    </footer>
+
+    <a href="#top" id="backToTop" aria-label="Back to top of page">⬆️ Top</a>
+  </body>
+</html>

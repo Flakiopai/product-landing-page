@@ -1,0 +1,20 @@
+# Prevent clutter and sensitive files from being tracked
+
+# OS-specific files
+.DS_Store
+
+# IDE and editor folders
+.vscode/
+
+# Log and environment files
+*.log
+.env
+
+# Node/npm build artifacts
+node_modules/
+dist/
+
+# Accessibility audit outputs (optional)
+axe-results.json
+lighthouse-report/
+
