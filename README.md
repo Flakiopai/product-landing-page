@@ -31,10 +31,6 @@ A clean, responsive landing page built using semantic HTML, CSS Flexbox/Grid, an
 - Live error messaging with `aria-live`
 - Input labels and clear validation indicators
 
-## 📸 Demo Screenshot
-
-![Screenshot of the landing page showing header, hero section, and navigation links](assets/landing-page-preview.png)
-
 ## 📝 Reflection
 
 Want to dive deeper into the build process, wins, and future ideas? Check out my [Reflection](./reflection.md).
