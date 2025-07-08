@@ -13,7 +13,6 @@ A clean, responsive landing page built using semantic HTML, CSS Flexbox/Grid, an
 
 - [Technologies Used](#technologies-used)
 - [Accessibility Highlights](#accessibility-highlights)
-- [Demo Screenshot](#demo-screenshot)
 - [Reflection](#reflection)
 - [Next Steps](#next-steps)
 
